@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<robot name="AkulaClassAtackSubmarine_output.urdf">
+  <link name="baseLink">
+    <inertial>
+	  <origin rpy="0 0 0" xyz="0 0 0"/>
+	  <mass value="1.0"/>  <!-- Adjust the mass to an appropriate value -->
+	  <inertia ixx="1.0" ixy="0" ixz="0" iyy="1.0" iyz="0" izz="1.0"/>  <!-- Adjust the inertia tensor -->
+	</inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="AkulaClassAtackSubmarine_output.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+      <material name="white">
+       <color rgba="1 1 1 1"/>
+     </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="AkulaClassAtackSubmarine_output.obj" scale="1.0 1.0 1.0"/>
+        <!-- You could also specify the collision (for the AkulaClassAtackSubmarine_output) with a "box" tag: -->
+        <!-- <box size=".06 .06 .06"/> -->
+      </geometry>
+    </collision>
+  </link>
+</robot>
+        
