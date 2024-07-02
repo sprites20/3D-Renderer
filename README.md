@@ -10,4 +10,4 @@ Then:
 python somepygame.py
 ```
 
-You need at least OpenGL 2.x.x to run this and mostly requires updating your graphics driver. I mean what kind of PC you using without a GPU bruh, live a little.
+You need at least OpenGL 2.x.x to run this and mostly requires updating your graphics driver in case it broke. I mean you don't have to if you have at least a GPU with a driver what kind of PC you using without a GPU bruh, live a little.
